@@ -8,7 +8,7 @@ public class Task_89_RotateAlphabetsWIpro {
 		for(int i = 0;i<ch.length;i++) {
 //			int cast =(int)ch[i];
 //			System.out.println(cast);
-			if(Character.isUpperCase(ch[i])) {
+			if(Character.isUpperCase(ch[i])) {									
 				ch[i]= (char) ( (ch[i] - 'A'+rot)%26+'A');
 			
 			}
